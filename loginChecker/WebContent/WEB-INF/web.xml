@@ -15,7 +15,6 @@
 <servlet> 
 <servlet-name>credsCompare</servlet-name>
 <servlet-class>loginChecker.credsCompare </servlet-class>
-
 </servlet>
 
 <servlet-mapping> 

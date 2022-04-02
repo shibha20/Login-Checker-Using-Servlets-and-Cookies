@@ -18,7 +18,7 @@ public class credsCompare extends HttpServlet {
 			String user = null; 
 			String pw = null ;
 			
-			//it is not recognizing password for some reason
+
 			for(Cookie c: cookies) {
 				if (c.getName().trim().equals("username")){
 					user= c.getValue().trim();
